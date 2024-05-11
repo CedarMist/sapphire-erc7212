@@ -1,0 +1,38 @@
+{
+    "name": "sapphire-erc7212",
+    "version": "0.1.0",
+    "description": "ERC-7212 compatibility shim for Oasis Sapphire",
+    "main": "lib/index.js",
+    "keywords": [
+        "oasis",
+        "sapphire",
+        "erc7212",
+        "secp256r1"
+    ],
+    "directories": {
+        "test": "tests"
+    },
+    "author": "Oasis Protocol Foundation",
+    "license": "MIT",
+    "devDependencies": {
+        "@noble/curves": "^1.4.0",
+        "@nomicfoundation/hardhat-ethers": "^3.0.5",
+        "@nomicfoundation/hardhat-ignition": "^0.15.0",
+        "@nomicfoundation/hardhat-ignition-ethers": "^0.15.0",
+        "@nomicfoundation/hardhat-network-helpers": "^1.0.10",
+        "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+        "@oasisprotocol/sapphire-hardhat": "^2.19.4",
+        "@types/mocha": "^10.0.6",
+        "@types/node": "^20.11.30",
+        "asn1js": "^3.0.5",
+        "chai": "^4.4.1",
+        "hardhat": "^2.22.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.3"
+    },
+    "dependencies": {
+        "@oasisprotocol/sapphire-contracts": "^0.2.7",
+        "@oasisprotocol/sapphire-paratime": "^1.3.2",
+        "ethers": "^6.11.1"
+    }
+}
